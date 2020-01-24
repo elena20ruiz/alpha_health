@@ -1,0 +1,25 @@
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+
+    width: -webkit-fill-available;
+    
+    padding: 0.2em;
+    background-color: #BBBBBB;
+}
+
+
+.ItemContainer {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.Active {
+    border-bottom: 5px solid rgb(250, 184, 164);
+}
